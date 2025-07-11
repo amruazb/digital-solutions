@@ -40,7 +40,7 @@ const AdminLogin = () => {
         <CardHeader className="text-center">
           <CardTitle className="text-2xl font-bold text-gray-900">Admin Login</CardTitle>
           <CardDescription>
-            Access the Interact Typing Services admin panel
+            Access the UAE DIGITAL SOLUTIONS admin panel
           </CardDescription>
         </CardHeader>
         <CardContent>

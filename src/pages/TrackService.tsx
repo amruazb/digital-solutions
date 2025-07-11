@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
@@ -208,7 +207,7 @@ const TrackService = () => {
               </div>
               <div className="flex items-center gap-3 text-sm text-blue-700">
                 <MessageCircle className="w-4 h-4" />
-                <span>WhatsApp: Available 24/7</span>
+                <span>WhatsApp: +971 54 403 6701</span>
               </div>
               <div className="pt-3">
                 <Button variant="outline" className="w-full border-blue-300 text-blue-700 hover:bg-blue-100">

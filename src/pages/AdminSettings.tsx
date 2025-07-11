@@ -51,7 +51,7 @@ const AdminSettings = () => {
   
   // Business Settings State
   const [businessSettings, setBusinessSettings] = useState({
-    centerName: 'Interact Typing Services',
+    centerName: 'UAE DIGITAL SOLUTIONS',
     email: 'info@interacttyping.ae',
     phone: '+971-4-1234567',
     address: 'Dubai, UAE',

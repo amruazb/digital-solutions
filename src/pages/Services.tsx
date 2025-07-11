@@ -23,9 +23,10 @@ import {
 import ServiceModal from '@/components/ServiceModal';
 import WhatsAppButton from '@/components/WhatsAppButton';
 import { services, serviceCategories } from '@/data/services';
+import { Service } from '@/types/service';
 
 const Services = () => {
-  const [selectedService, setSelectedService] = useState(null);
+  const [selectedService, setSelectedService] = useState<Service | null>(null);
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedCategory, setSelectedCategory] = useState('all');
 
@@ -62,14 +63,14 @@ const Services = () => {
                 <FileText className="w-6 h-6" />
               </div>
               <div>
-                <h1 className="text-xl font-bold text-gray-900">Interact Typing Services</h1>
+                <h1 className="text-xl font-bold text-gray-900">UAE DIGITAL SOLUTIONS</h1>
                 <p className="text-sm text-gray-600">All Services</p>
               </div>
             </div>
             <div className="hidden md:flex items-center space-x-6">
               <div className="flex items-center space-x-1 text-sm text-gray-600">
                 <Phone className="w-4 h-4" />
-                <span>+971 XX XXX XXXX</span>
+                <span>+971 54 403 6701</span>
               </div>
               <Button variant="outline" size="sm" onClick={() => window.location.href = '/'}>
                 Back to Home

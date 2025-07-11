@@ -88,7 +88,7 @@ const AdminSidebar = () => {
     <div className="flex h-full w-64 flex-col bg-white shadow-lg border-r border-gray-200">
       {/* Logo */}
       <div className="flex h-16 items-center justify-center border-b border-gray-200 bg-blue-600">
-        <h1 className="text-lg font-bold text-white">Interact Admin</h1>
+        <h1 className="text-lg font-bold text-white">UAE Admin</h1>
       </div>
 
       {/* Navigation */}
